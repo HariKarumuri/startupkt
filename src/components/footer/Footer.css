@@ -1,0 +1,55 @@
+.Footer{
+  background: rgb(236,242,255);
+  padding: 1rem 0rem;
+}
+.Footer_Text{
+  font-size: 0.9rem;
+  color: rgb(116, 154, 223);
+}
+.sLogo{
+  margin-right: 2rem;
+}
+.UseFulLinks a{
+  font-weight: 300;
+  margin-bottom: 0.8rem;
+  color: var(--primary-blue);
+}
+.UseFulLinks h5{
+  color: var(--primary-blue);
+  font-weight: 620;
+  
+}
+.UseFulLinks a:hover{
+  color: var(--primary);
+}
+.f-address ,.f-number,.f-email{
+  color: var(--primary-blue);
+  font-weight: 500;
+}
+.f-icons{
+  color: var(--primary);
+  margin-right: 0.86rem;
+}
+
+@media screen and (max-width: 600px) {
+  .f_company_logo img{
+    height: auto;
+    width: 150px;
+  }
+  .sLogo {
+    height: 50px;
+    width: 50px;
+  }
+  .f-address ,.f-number,.f-email{
+    font-size: 0.8rem;
+    
+    color: var(--primary-blue);
+    font-weight: 500;
+  }
+  .f-address p{
+    text-align: left !important;
+  }
+}
+@media screen and (max-width: 1240px) {
+ 
+}

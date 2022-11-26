@@ -1,0 +1,31 @@
+.Digi h2 ,.Web h2,.Web p{
+  color: var(--primary-blue);
+}
+.Digi h5 ,.UI h3 , .Web h4{
+  color: var(--primary);
+}
+.Digi p ,.UI li ,.Web li{
+  color: var(--primary-blue);
+  font-size: 1.023rem;
+}
+.Web h5{
+  color: var(--primary-blue);
+  text-decoration: underline;
+}
+.MandS{
+  color: var(--primary-blue);
+
+}
+.MandS h2 , .MandS h5{
+  color: var(--primary);
+} 
+ 
+
+@media screen and (max-width: 768px) {
+  .display_none{
+    display: none;
+  }
+}
+@media screen and (max-width: 1240px) {
+  
+}

@@ -1,0 +1,32 @@
+.Services_main{
+  background: var(--primary-blue);
+  
+  padding-bottom: 4rem;
+}
+.Services_main .card-text{
+  font-size: 24px !important;
+  font-weight: 400;
+}
+.Services_main .card-title{
+  font-weight: 600;
+}
+.Services_main h1{
+  display: inline-block;
+  color: white;
+  text-transform: uppercase !important;
+  border-bottom: 7px solid var(--primary);
+  padding-bottom: 1.5rem;
+}
+.Services_main img{
+  width: 250px !important;
+}
+.card{
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  
+}
+@media screen and (max-width: 1240px) {
+ 
+}

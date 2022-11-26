@@ -1,0 +1,51 @@
+.Contact_page h1{
+  color: var(--primary-blue);
+  margin: 2rem;
+}
+.Contact_page .card-text{
+  font-size: 16px !important;
+  font-weight: 400;
+}
+.Contact_page .card{
+  height: 100%;
+  border-radius: 16px;
+  border: none;
+  color: white;
+  background: var(--primary-blue);
+  
+}
+.Alty{
+  background: var(--primary) !important;
+}
+
+.Contact_page i{
+  font-size: 2rem;
+}
+
+.Contact_page form input ,.Contact_page form textarea {
+  border: 2px solid black;
+  padding: 1rem;
+}
+.submit_btn{
+  padding: 1rem 3rem;
+  border-radius: 0.3rem;
+  border: none;
+  background: var(--primary-blue);
+  color: white;
+  text-transform: capitalize;
+  
+}
+.SucessBox{
+  width: 410px;
+  padding: 0.5rem;
+  margin: auto;
+  
+   
+}
+.SucessBox p {
+ color: var(--primary);
+ 
+}
+.displayNONE{
+  display: none;
+}

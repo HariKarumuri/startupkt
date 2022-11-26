@@ -1,0 +1,16 @@
+.navbar{
+  background: rgb(255,229,208) !important;
+  z-index: 99;
+}
+
+.navbar-brand,.nav-link{
+  color: var(--primary-blue) !important;
+  font-weight:600;
+  font-size: 1.06rem;
+}
+.nav-link:hover{
+  color: var(--primary) !important;
+}
+.active{
+  text-decoration: underline;
+}

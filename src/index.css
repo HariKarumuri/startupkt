@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+
+:root{
+  --primary: rgb(235,92,0);
+  --primary-blue:rgb(0,52,147);
+  --bg-one:rgb(255, 255, 255);
+  --bg-two:rgb(0,52,147);
+
+
+}
+*{
+  text-transform: capitalize;
+  scroll-behavior: smooth;
+  font-family: 'Outfit', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.bg1{
+  background-color: var(--bg-one) !important;
+}
+.bg2{
+  background-color: var(--bg-two) !important;
+}
+.primary-blue{
+  background-color: var(--primary-blue) !important;
+}
+.blueFont{
+  color: var(--primary-blue) !important;
+}
+.bg1Font{
+  color: var(--bg-one);
+}
+.bg2Font{
+  color: var(--bg-two);
 }
