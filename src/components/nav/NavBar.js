@@ -13,7 +13,7 @@ const NavBar = () => {
       <section className="navbar-bg  NavBarSection">
         <nav className="navbar navbar-expand-lg navbar-light ">
           <div className="container">
-          <i><img src={logo} alt="company-logo" height="60px" className="navbar-brand" /></i>
+          <i><img src={logo} alt="company-logo" height="65px" className="navbar-brand" /></i>
             <button
               className="navbar-toggler primary-green"
               type="button"
@@ -47,8 +47,9 @@ const NavBar = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink
-                    to="/About"
+                  
+                  <a
+                      href="/#About"
                     className="nav-link pe-4 "
                     aria-current="page"
                     activeClassName="active"
@@ -57,7 +58,7 @@ const NavBar = () => {
                     }}
                   >
                     About
-                  </NavLink>
+                  </a>
                 </li>
                 <li className="nav-item">
                   <NavLink

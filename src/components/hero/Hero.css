@@ -36,6 +36,9 @@
 .Hero_title_div{
   margin-top: -5rem;
 }
+.Hero-Container{
+  margin-top: 9rem;
+}
 
 
 
@@ -64,7 +67,7 @@
   } */
   .startup-image img{
     height: auto;
-    width: 100% ;
+    width: 350px !important;
   }
 }
 @media screen and (max-width: 1240px) {

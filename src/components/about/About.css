@@ -1,7 +1,7 @@
 .About1 {
   background: var(--primary);
   padding: 3rem 0rem;
-  height: 90vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,8 +21,8 @@
   font-weight: bold;
 }
 .card-title {
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 .About2 {
   color: var(--primary-blue);
@@ -35,17 +35,23 @@
   font-weight: 500;
 }
 .About2_Large_Text {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   text-align: center;
   margin-top: 1rem;
 }
 
+.About2-images {
+  max-height: 350px !important;
+}
+.About3-images{
+  max-height: 350px !important;
+}
 
 .RoundBG h4 {
   color: var(--primary-blue);
   font-weight: 600;
-  
+  font-size: 2.2rem;
 }
 
 .About3 .card-text {
@@ -70,48 +76,54 @@
 .About3 .Alt {
   background: rgb(236, 242, 255) !important;
 }
-.minusMargin{
-  margin: -6rem 0;
-}
 
 
-/* mobile view starts here */
+/* ------------------------------------------mobile view starts here-------------------------------- */
+
+/* -----------------------sm-screens ---------------------------------------------------------*/
 
 @media screen and (max-width: 600px) {
-  .About1{
-    height: 100vh ;
+  .About1 {
+    height: 100vh;
+  }
+  .About2_Large_Text {
+    font-size: 1.5rem !important;
+  }
 
-  }
-  .minusMargin{
-    width: 200px !important;
-  }
-  .minusMargin img{
-    height: auto;
-    width: 100%;
-  }
-  .About2_Large_Text{
-    font-size: 2.5rem;
-  }
-  .About3 .card-img-top{
-    /* display: none; */
-    width: 250px;
-  }
-  .About3 .card{
+  .About3 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+  .About2-images {
+    max-height: 200px !important;
+  }
+  .About3-images{
+    max-height: 200px !important;
+  }
+  .About2_strong_text{
+    font-size: 1rem;
+    
+  }
+  .Sm-Hidden{
+      display: none;
+  }
+  /*-----------------about3---------------------*/
+
+  .RoundBG h4 {
+    color: var(--primary-blue);
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .About3 .card-img-top{
+    width: 130px !important;
+  }
+  
 }
 @media screen and (max-width: 1240px) {
-  .minusMargin{
-    width: 200px !important;
-  }
-  .minusMargin img{
-    height: auto;
-    width: 100%;
-  }
-  .About2_Large_Text{
-    font-size: 2.5rem;
+  
+  .About2_Large_Text {
+    font-size: 2rem;
   }
 }

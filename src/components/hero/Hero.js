@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className="Hero-Container vh-100 ">
-      <div className="container vh-100">
+    <div className="Hero-Container  ">
+      <div className="container ">
         {/* Only one row given to contaain 2 cols */}
         <div className="row Hero_Row">
           {/* the first col contains main text */}
@@ -29,9 +29,9 @@ const Hero = () => {
             </div>
           </div>
           <div className="col d-flex flex-column justify-content-center align-items-center Hero_title_div">
-            <div className="startup-image">
+            
               <img className="img-fluid" src={Vector1} alt="startup-image" height="400px"  />
-            </div>
+            
           </div>
         </div>
       </div>

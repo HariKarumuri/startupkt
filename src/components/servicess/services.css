@@ -4,8 +4,9 @@
   padding-bottom: 4rem;
 }
 .Services_main .card-text{
-  font-size: 24px !important;
+  font-size: 16px !important;
   font-weight: 400;
+  margin-bottom: 1rem;
 }
 .Services_main .card-title{
   font-weight: 600;
@@ -18,10 +19,18 @@
   padding-bottom: 1.5rem;
 }
 .Services_main img{
-  width: 250px !important;
+  width: 130px !important;
+}
+.Services_main h5{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 .card{
   height: 100%;
+}
+.Text_Bold_p{
+  color: var(--primary);
+  font-weight: 600;
 }
 
 @media screen and (max-width: 600px) {

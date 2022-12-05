@@ -5,7 +5,7 @@ const About1 = () => {
     <div className=" About1">
       <div className="container">
       <div class="row  g-4">
-        <div class="col-6 col-lg-6 col-sm-6">
+        <div class="col-6 col-lg-3 col-sm-6">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Happy Clients</h5>
@@ -16,7 +16,7 @@ const About1 = () => {
             </div>
           </div>
         </div>
-        <div class="col-6 col-lg-6 col-sm-6">
+        <div class="col-6 col-lg-3 col-sm-6">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Projects</h5>
@@ -28,7 +28,7 @@ const About1 = () => {
           </div>
         </div>
       
-        <div class="col-6 col-lg-6 col-sm-6">
+        <div class="col-6 col-lg-3 col-sm-6">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Hours of Support</h5>
@@ -39,7 +39,7 @@ const About1 = () => {
             </div>
           </div>
         </div>
-        <div class="col-6 col-lg-6 col-sm-6">
+        <div class="col-6 col-lg-3 col-sm-6">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Hard Workers</h5>
