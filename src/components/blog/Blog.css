@@ -1,5 +1,6 @@
 .BlogSingle {
   height: auto;
+  overflow-x: hidden;
 }
 
 .Blog_Card img {
@@ -62,9 +63,41 @@
   margin: 1rem;
 }
 
+.Banner_Content .BlockContent img{
+  display: block;
+  margin-left: auto ;
+  margin-right: auto;
+  
+
+}
+.Banner_Content p{
+  margin: 1.5rem 0;
+}
+
 @media screen and (max-width: 600px) {
+
+  .BannerImg{
+    height: 180px !important;
+  }
+  
   .Banner_Content {
-    font-size: 0.9rem !important;
+    font-size: 0.95rem !important;
+  }
+  .Banner_Read_More{
+    font-size: 0.8rem;
+  }
+  .Banner_Content h1{
+    font-size: 1.5rem !important;
+  }
+  .Banner_Content .Banner_author{
+    color: var(--primary);
+  }
+  .Banner_Content p{
+    margin: 1.5rem 0;
+  }
+  .Banner_Content .BlockContent img{
+    width: 70vw !important;
+
   }
 }
 @media screen and (max-width: 1240px) {

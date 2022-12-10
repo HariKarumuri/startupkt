@@ -41,7 +41,7 @@ const Footer = () => {
           <div className="col d-flex flex-column UseFulLinks">
             <h5>Useful links</h5>
             <Link to="/">Home</Link>
-            <Link to="/About">AboutUs</Link>
+            <Link to="/Blog">Blog</Link>
             <Link to="/Services">Services</Link>
             <Link to="/">Terms of service</Link>
             <Link to="/">Privacy policy</Link>

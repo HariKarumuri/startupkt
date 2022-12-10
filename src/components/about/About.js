@@ -8,11 +8,13 @@ import About3 from './About3';
 
 const About = () => {
   return (
-    <div id='About'>
+    <>
       <About1/>
+    <div id='About'>
       <About2/>
       <About3/>
     </div>
+    </>
   )
 }
 

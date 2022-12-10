@@ -96,7 +96,14 @@
 
 @media screen and (max-width: 600px) {
   .About1 {
-    height: 100vh;
+    height: auto;
+  }
+  .About1 .card-title{
+    font-size: 1rem;
+
+  }
+  .About1 .card-text{
+    font-size: 2rem;
   }
   .About2_Large_Text {
     font-size: 1.5rem !important;
