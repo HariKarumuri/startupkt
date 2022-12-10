@@ -54,7 +54,7 @@ const Contact = () => {
   return (
     <div className="Contact_page mb-3">
       <div className="container text-center">
-        <h1>contact us</h1>
+        <h1>Contact us</h1>
         <div className="row d-flex align-items-center justify-content-center">
           {/* <div className="col">
             <div className="row mb-3">

@@ -28,23 +28,26 @@ const DigiMarkPage = () => {
             </li>
           </ol>
         </nav>
-        <div className="row">
+        <h1>
+          “StartupKT Business Solutions” the best among the Digital Marketing
+          Companies in Bangalore.
+        </h1>
+        <div className="row mt-4">
           <div className="col-lg-6 col-md-6 ">
-            <h2>
-              “StartupKT Business Solutions” the best among the Digital
-              Marketing Companies in Bangalore.
-            </h2>
             <h5>Transform your digital presence from scratch with us.</h5>
             <p>
               We are focused on getting maximum conversion optimized websites
               and Digital Marketing solutions for your Company. we understand
               every business is unique and it requires special attention to take
               your brand to the next level with all the best strategies, digital
-              solutions, digital advertising, etc. <br />
+              solutions, digital advertising, etc.{" "}
+            </p>
+            <p>
               Our Strategies have helped numerous of our customers in getting
               their business on top positions and adding revenue to their
               businesses.
-              <br />
+            </p>
+            <p>
               Be it a start-up, SMB or enterprise, a business needs a solid
               presence in the ever-changing digital world. We help your brand
               evolve in digital platforms from scratch.

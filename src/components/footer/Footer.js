@@ -39,25 +39,25 @@ const Footer = () => {
 
           {/* this is for usefullinks */}
           <div className="col d-flex flex-column UseFulLinks">
-            <h5>useful links</h5>
+            <h5>Useful links</h5>
             <Link to="/">Home</Link>
             <Link to="/About">AboutUs</Link>
             <Link to="/Services">Services</Link>
             <Link to="/">Terms of service</Link>
-            <Link to="/">privacy policy</Link>
+            <Link to="/">Privacy policy</Link>
           </div>
           {/* this is for services */}
           <div className="col d-flex flex-column UseFulLinks">
-            <h5>our services</h5>
-            <Link to="/Services/UiUxDesigns">web design</Link>
-            <Link to="/Services/AppDev">web development</Link>
-            <Link to="/Services/DigitalMarketing">marketing</Link>
-            <Link to="/Services/MentoringScaling">graphic design</Link>
+            <h5>Our Services</h5>
+            <Link to="/Services/UiUxDesigns">Web design</Link>
+            <Link to="/Services/AppDev">Web development</Link>
+            <Link to="/Services/DigitalMarketing">Marketing</Link>
+            <Link to="/Services/MentoringScaling">Graphic design</Link>
           </div>
 
           {/* this id for contact us  */}
           <div className="col-lg-3 d-flex flex-column UseFulLinks">
-            <h5>contact us</h5>
+            <h5>Contact Us</h5>
             <div className="f-address my-2 d-flex">
               <i className="f-icons">
                 <FontAwesomeIcon icon={faLocationDot} />

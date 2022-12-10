@@ -14,7 +14,7 @@ const Hero = () => {
           {/* the first col contains main text */}
           <div className="col d-flex flex-column justify-content-center align-items-center Hero_title_div">
             <div className="hero-title">
-              <p>startupKT</p>
+              <p>StartupKT</p>
             </div>
             <div className="hero-sub-title text-center">
               <p>Tech Partner for Your startup</p>

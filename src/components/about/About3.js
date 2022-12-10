@@ -58,7 +58,7 @@ const About3 = () => {
               <div className="card-body">
                 <h5 className="card-title">Efficient Design</h5>
                 <p className="card-text">
-                  we will provide you the UI/UX design which ensures that you
+                  We will provide you the UI/UX design which ensures that you
                   are able to see all your ideas are implemented on the design.
                 </p>
                 <p className="card-text">

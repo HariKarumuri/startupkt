@@ -24,6 +24,9 @@
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+
+
 .About2 {
   color: var(--primary-blue);
 }
@@ -32,13 +35,21 @@
   padding: 3rem 0;
 }
 .About2_strong_text {
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.45rem;
+  color: var(--primary);
 }
 .About2_Large_Text {
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
   margin-top: 1rem;
+}
+
+/* about 2 gray text below */
+
+.About2 ul li {
+  color: rgb(54, 54, 54) !important;
 }
 
 .About2-images {
@@ -57,6 +68,7 @@
 .About3 .card-text {
   font-size: 16px;
   font-weight: 400;
+  color: rgb(54, 54, 54) !important;
 }
 .About3 .card-title {
   font-size: 24px;

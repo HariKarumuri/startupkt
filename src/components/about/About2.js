@@ -12,7 +12,7 @@ const About2 = () => {
           <div className="row m-0 d-flex align-items-center justify-content-center">
             <div className="col-12 col-lg-6 col-sm-12 ">
               <h5 className="About2_strong_text">
-                We help Startup Wantrepreneurs and entrepreneurs who have great
+                We help Startup Wantrepreneurs and Entrepreneurs who have great
                 ideas but looking out for startup knowledge and Tech Support.
               </h5>
 

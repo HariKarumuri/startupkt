@@ -12,7 +12,7 @@ const blogCard = ({ title, img, goTo, author }) => {
               <h4 className="card-title">{title}</h4>
               <p className="card-text">Author : {author}</p>
               <Link to={`/Blog/${goTo}`} className="btn btn-primary">
-                know more
+                Know more
               </Link>
             </div>
           </div>

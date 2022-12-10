@@ -1,9 +1,8 @@
-import React from 'react'
-import logo from '../../Assests/startupkt-logo.png'
-import {NavLink} from 'react-router-dom';
-import { useState } from 'react';
-import "./NavBar.css"
-
+import React from "react";
+import logo from "../../Assests/startupkt-logo.png";
+import { NavLink, Link } from "react-router-dom";
+import { useState } from "react";
+import "./NavBar.css";
 
 const NavBar = () => {
   const [HamShow, setHamShow] = useState(false);
@@ -13,7 +12,17 @@ const NavBar = () => {
       <section className="navbar-bg  NavBarSection">
         <nav className="navbar navbar-expand-lg navbar-light ">
           <div className="container">
-          <i><img src={logo} alt="company-logo" height="65px" className="navbar-brand" /></i>
+            <Link to="/">
+            
+              <i>
+                <img
+                  src={logo}
+                  alt="company-logo"
+                  height="65px"
+                  className="navbar-brand"
+                />
+              </i>
+            </Link>
             <button
               className="navbar-toggler primary-green"
               type="button"
@@ -37,7 +46,6 @@ const NavBar = () => {
                     to="/"
                     exact
                     className="nav-link pe-4"
-                    
                     aria-current="page"
                     onClick={() => {
                       setHamShow(!HamShow);
@@ -47,9 +55,8 @@ const NavBar = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  
                   <a
-                      href="/#About"
+                    href="/#About"
                     className="nav-link pe-4 "
                     aria-current="page"
                     activeClassName="active"
@@ -108,11 +115,7 @@ const NavBar = () => {
   );
 };
 
-
-
-export default NavBar
-
-
+export default NavBar;
 
 /* return (
   <>

@@ -35,7 +35,7 @@ const Services = () => {
           <div className="col-lg-3 col-12 col-md-6">
             <div className="card d-flex justify-content-center align-items-center">
               <div className="card-body">
-                <h5 className="card-title">web & mobile apps</h5>
+                <h5 className="card-title">Web & Mobile apps</h5>
                 <p className="card-text">
                   <span className="Text_Bold_p">LAUNCH</span> and showcase your Product / Service.
                 </p>

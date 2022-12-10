@@ -74,75 +74,52 @@ const WebDevPage = () => {
                 into high- performing and stoner-friendly iOS, Android, and
                 cross-platform mobile apps.
               </li>
+
+              <h5>
+                StartupKT as a Mobile App Development Company in India Proven
+                track record
+              </h5>
+
+              <li>Quality Testing</li>
+              <li>Focus on Innovation</li>
+            </ul>
+            <h4>Why choose StartupKT for Mobile App Development?</h4>
+            <ul>
               <li>
-                <h6>
-                  StartupKT as a Mobile App Development Company in India Proven
-                  track record
-                </h6>
+                As a well- known Mobile app development company in India, we
+                give largely client-centric results. Our app developers make
+                sure agility and predictability, performing in diminished costs,
+                higher ROI, lower threat, and a double-quick response to
+                consumer demands openings.
               </li>
               <li>
-                <h6>Quality Testing</h6>
+                Whether you're looking for an online-offline mobile app, hybrid
+                or native app, or a mobile browser- enabled web app, we've got
+                you covered.
               </li>
+              <li>A largely skilled and complete team</li>
+              <li>8 Years of experience in mobile app development</li>
               <li>
-                <h6>Focus on Innovation</h6>
+                Unique creativity and authenticated development strategies
               </li>
+              <li>A client-centric approach to development</li>
+              <li>Brilliant team for developing an engaging user interface</li>
               <li>
-                <h6>Why choose StartupKT for Mobile App Development?</h6>
-                <p>
-                  As a well- known Mobile app development company in India, we
-                  give largely client-centric results. Our app developers make
-                  sure agility and predictability, performing in diminished
-                  costs, higher ROI, lower threat, and a double-quick response
-                  to consumer demands openings.
-                  <br />
-                  Whether you're looking for an online-offline mobile app,
-                  hybrid or native app, or a mobile browser- enabled web app,
-                  we've got you covered.
-                </p>
+                Focus on security, scalability, and robust infrastructures
               </li>
+              <li>Quick development process</li>
+              <li>Quick development process</li>
+              <li>Hassle-free communication with the guests</li>
               <li>
-                <h6>A largely skilled and complete team</h6>
-              </li>
-              <li>
-                <h6>Years of experience in mobile app development</h6>
-              </li>
-              <li>
-                <h6>
-                  Unique creativity and authenticated development strategies
-                </h6>
-              </li>
-              <li>
-                <h6>A client-centric approach to development</h6>
-              </li>
-              <li>
-                <h6>
-                  Brilliant team for developing an engaging user interface
-                </h6>
-              </li>
-              <li>
-                <h6>
-                  Focus on security, scalability, and robust infrastructures
-                </h6>
-              </li>
-              <li>
-                <h6>Quick development process</h6>
-              </li>
-              <li>
-                <h6>Quick development process</h6>
-              </li>
-              <li>
-                <h6>Hassle-free communication with the guests</h6>
-              </li>
-              <li>
-                <h6>Cost-effective services</h6>
-                <p>
+                Cost-effective services
+                {/* <p>
                   Our ambition at StartupKT is to bring clearness and
                   satisfaction to the app development space. We offer you
                   advanced UI/ UX elements that guarantee a smooth user
                   experience, concoct a secure specialized framework, review
                   functionalities for any glitches, and guarantee complete
                   post-launch support.
-                </p>
+                </p> */}
               </li>
             </ul>
           </div>
@@ -152,7 +129,7 @@ const WebDevPage = () => {
           </div>
         </div>
 
-        <h2>Mobile App Development Services We Offer</h2>
+        <h2>Mobile App Development Services We Offer :</h2>
         <div className="row g-3 my-4">
           <div className="col-12 col-lg-3 col-md-6 text-center">
             <div className="card p-4 ">
@@ -169,10 +146,10 @@ const WebDevPage = () => {
           <div className="col-12 col-lg-3 col-md-6 text-center">
             <div className="card p-4 ">
               <h4>
-                iOS App <br /> Development
+                IOS App <br /> Development
               </h4>
               <p>
-                We bring the rearmost iOS app using native methodologies that
+                We bring the rearmost IOS app using native methodologies that
                 are customized to your specific business requirements.
                 Exercising Swift technologies, C and Objective C, we draw out
                 the stylish and most creative operations that offer an charming
