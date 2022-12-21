@@ -37,6 +37,13 @@
   .display_none{
     display: none;
   }
+  .breadcrumb li{
+    font-size: 0.8rem;
+  }
+  .Web .breadcrumb li {
+    font-size: 0.669rem !important;
+  }
+  
 }
 @media screen and (max-width: 1240px) {
   

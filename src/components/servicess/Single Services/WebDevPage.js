@@ -26,7 +26,7 @@ const WebDevPage = () => {
               <Link to="/Services">Services</Link>
             </li>
             <li className="breadcrumb-item active" aria-current="page">
-              web & mobile app development
+              Web & Mobile app development
             </li>
           </ol>
         </nav>

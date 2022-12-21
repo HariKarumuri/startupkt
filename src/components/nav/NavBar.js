@@ -2,6 +2,8 @@ import React from "react";
 import logo from "../../Assests/startupkt-logo.png";
 import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars} from "@fortawesome/free-solid-svg-icons";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -13,7 +15,6 @@ const NavBar = () => {
         <nav className="navbar navbar-expand-lg navbar-light ">
           <div className="container">
             <Link to="/">
-            
               <i>
                 <img
                   src={logo}
@@ -24,7 +25,7 @@ const NavBar = () => {
               </i>
             </Link>
             <button
-              className="navbar-toggler primary-green"
+              className="navbar-toggler "
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -35,7 +36,8 @@ const NavBar = () => {
                 setHamShow(!HamShow);
               }}
             >
-              <span className="navbar-toggler-icon  "></span>
+              <i className="hamburger"><FontAwesomeIcon icon={faBars} /></i>
+              
             </button>
             <div
               className={`collapse navbar-collapse ${HamShow ? "show" : ""}   `}
@@ -67,19 +69,46 @@ const NavBar = () => {
                     About
                   </a>
                 </li>
-                <li className="nav-item">
-                  <NavLink
-                    to="/Services"
-                    className="nav-link pe-4 "
-                    aria-current="page"
-                    activeClassName="active"
-                    onClick={() => {
-                      setHamShow(!HamShow);
-                    }}
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="/Services"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
                   >
                     Services
-                  </NavLink>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="/Services/UiUxDesigns">
+                        UI/UX Designs
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/Services/AppDev">
+                        Web & Mobile apps
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/Services/DigitalMarketing"
+                      >
+                        Digital Marketing
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="/Services/MentoringScaling"
+                      >
+                        Mentoring & Scaling
+                      </a>
+                    </li>
+                  </ul>
                 </li>
+
                 <li className="nav-item">
                   <NavLink
                     to="/Blog"
@@ -116,41 +145,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-/* return (
-  <>
-  <section className="navbar-bg">
-    <nav className="navbar navbar-expand-lg bg-light">
-<div className="container-fluid">
-  <i><img src={logo} alt="company-logo" height="60px" className="navbar-brand" /></i>
-  
-  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-      <li className="nav-item">
-        <a className="nav-link active" aria-current="page" href="#">Home</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link active" aria-current="page" href="#">About</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link active" aria-current="page" href="#">Service</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link active" aria-current="page" href="#">Blog</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link active" aria-current="page" href="#">Contact Us</a>
-      </li>
-     
-    </ul>
-    
-  </div>
-</div>
-</nav>
-</section>
-  </>
-)
-} */

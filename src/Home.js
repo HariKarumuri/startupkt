@@ -5,6 +5,8 @@ import Contact from './components/contact/Contact';
 import Services from './components/servicess/Services';
 import Blog from './components/blog/Blog';
 
+
+
 const Home = () => {
 
   if(window.innerWidth<992){
@@ -12,6 +14,7 @@ const Home = () => {
       <div>
         <Hero/>
         <Services/>
+        
         <About/>
         <Blog/>
         <Contact/>
@@ -23,6 +26,7 @@ const Home = () => {
     <div>
       <Hero/>
       <Services/>
+     
       <About/>
       
       <Contact/>
