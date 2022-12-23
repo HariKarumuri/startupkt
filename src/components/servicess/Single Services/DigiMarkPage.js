@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import "./SinglePage.css";
 import img1 from "../../../Assests/digitalmarket.png";
+import { Helmet } from "react-helmet";
 
 const DigiMarkPage = () => {
   const scrollUp = () => {
@@ -14,6 +15,12 @@ const DigiMarkPage = () => {
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>Best Digital Marketing | SEO | SEM | SMM services in bangalore | StartupKT</title>
+        <meta name="description" content="Digital Marketing services for Business | Website Ranking, Social Media Marketing, Paid Advertise Marketing, E - commerce, Brand Building at best competitive prices" />
+        <meta name="keywords" content="digital marketing freelancer " />
+        <meta name="keywords" content="best digital marketing service in bangalore " />
+      </Helmet>
       <div className="container Digi">
         <nav aria-label="breadcrumb" className="m-3">
           <ol className="breadcrumb">
@@ -54,7 +61,7 @@ const DigiMarkPage = () => {
             </p>
           </div>
           <div className="col-lh-6 col-md-6">
-            <img className="img-fluid" src={img1} alt="" />
+            <img className="img-fluid" src={img1} alt="Sale illustrator" />
           </div>
         </div>
       </div>

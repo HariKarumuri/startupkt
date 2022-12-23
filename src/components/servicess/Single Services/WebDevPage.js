@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "./SinglePage.css";
 import img3 from "../../../Assests/mobile.png";
 import img2 from "../../../Assests/mobile2.png";
+import { Helmet } from "react-helmet";
 
 const WebDevPage = () => {
   const scrollUp = () => {
@@ -16,6 +17,20 @@ const WebDevPage = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>
+          Best website & mobile app development services in Bangalore |
+          StartupKT
+        </title>
+        <meta
+          name="description"
+          content="Website progamming development & wordpress development services | Mobile app flutter development services | E-commerce | Mobile user friendly & SEO friendly"
+        />
+        <meta
+          name="keywords"
+          content="best web & app development services in Bangalore"
+        />
+      </Helmet>
       <div className="container Web">
         <nav className="m-3" aria-label="breadcrumb">
           <ol className="breadcrumb">
@@ -124,8 +139,8 @@ const WebDevPage = () => {
             </ul>
           </div>
           <div className="col-lg-6 col-md-6 d-flex justify-content-around align-items-center flex-column">
-            <img className="img-fluid" src={img3} alt="" />
-            <img className="img-fluid display_none" src={img2} alt="" />
+            <img className="img-fluid" src={img3} alt="Phone illustrator" />
+            <img className="img-fluid display_none" src={img2} alt="Phone illustrator" />
           </div>
         </div>
 

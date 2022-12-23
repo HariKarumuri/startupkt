@@ -2,7 +2,8 @@ import React from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./SinglePage.css";
-import img2 from "../../../Assests/mobile.png"
+import img2 from "../../../Assests/mobile.png";
+import { Helmet } from "react-helmet";
 
 const UiPage = () => {
   const scrollUp = () => {
@@ -15,6 +16,16 @@ const UiPage = () => {
 
   return (
     <>
+      <Helmet>
+        <title>
+          Best UI/UX Design & Development Services in Bangalore | StartupKT{" "}
+        </title>
+        <meta
+          name="description"
+          content="Get UI/UX Best design & development services in bangalore for you business growth, get more customers attraction & better conversions"
+        />
+        <meta name="keywords" content="ui/ux for services in Bangalore"/>
+      </Helmet>
       <div className="container UI">
         <nav className="m-3" aria-label="breadcrumb">
           <ol className="breadcrumb">
@@ -65,8 +76,8 @@ const UiPage = () => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-6 col-md-6 d-flex justify-content-center align-items-center" >
-            <img className="img-fluid" src={img2} alt="" />
+          <div className="col-lg-6 col-md-6 d-flex justify-content-center align-items-center">
+            <img className="img-fluid" src={img2} alt="Phone illustrator" />
           </div>
         </div>
       </div>

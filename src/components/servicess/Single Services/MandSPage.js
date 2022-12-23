@@ -68,7 +68,7 @@ const MandSPage = () => {
             </p>
           </div>
           <div className="col-lg-6 col-md-6 d-flex justify-content-center align-items-center">
-            <img className="img-fluid" src={img1} alt=""  width="400px"/>
+            <img className="img-fluid" src={img1} alt="Teaching Illustrator"  width="400px"/>
           </div>
         </div>
 

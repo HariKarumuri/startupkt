@@ -12,10 +12,17 @@ import UiPage from "./components/servicess/Single Services/UiPage";
 import WebDevPage from "./components/servicess/Single Services/WebDevPage";
 import DigiMarkPage from "./components/servicess/Single Services/DigiMarkPage";
 import MandSPage from "./components/servicess/Single Services/MandSPage";
+import { Helmet } from 'react-helmet';
+
 
 function App() {
   return (
     <>
+      <Helmet>
+        <title>StartupKT Business Solution - it services company</title>
+        <meta name="description" content="We are StartupKt, a digital agency that specializes in a wide range of services, including digital marketing, web development, app development, graphic design, and UI/UX." />
+        <meta name="keywords" content="best it service company in bangalore" />
+      </Helmet>
       <Router>
         <NavBar />
         <Routes>
